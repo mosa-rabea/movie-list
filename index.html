@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="./css/reset.css">
+      <link rel="stylesheet" href="./css/style.css">
+      <title>My Movie list</title>
+</head>
+<body>
+   <header>
+<h1>My Movie list</h1>
+   </header>
+   <main>
+      <div id="divForm">   
+<form id="form">
+      <fieldset>
+            <legend>New Movie</legend>
+<label for="text" >name</label><br>
+<input type="text" id="name"><br>
+<label for="text">Image</label>
+<select name="category" id="category">
+      <option value="Action.png">Action</option>
+      <option value="Adventure.png">Adventure</option>
+      <option value="Animation.png">Animation</option>
+      <option value="Comedy.png">Comedy</option>
+      <option value="Detective.png">Detective</option>
+      <option value="Fantasy.png">Fantasy</option>
+      <option value="History.png">History</option>
+      <option value="Horror.png">Horror</option>
+      <option value="Musical.png">Musical</option>
+      <option value="Pirate.png">Pirate</option>
+      <option value="Romantic.png">Romantic</option>
+      <option value="SCI-FI.png">SCI-FI</option>
+      <option value="War.png">War</option>
+      <option value="Western.png">Western</option>
+</select><br>
+<label for="text">Release</label>
+<input type="text" id="release"><br><br>
+<button type="submit" id="save">Save</button>
+<input type="button" id="clear" value="Clear LS"><br><br>
+</fieldset>
+</form>
+</div>
+<div id="divTable">
+      <table id="table">
+            <thead>
+
+            </thead>
+            <tbody>
+                  
+            </tbody>
+      </table>
+</div>
+   </main>
+   <footer>
+<h2>All right reserved 2021 &copy; ASAC</h2>
+   </footer>  
+   <script src="./js/app.js"></script> 
+</body>
+</html>

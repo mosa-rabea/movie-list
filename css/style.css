@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*{
+      box-sizing: border-box;
+      margin: 0 auto;
+}
+body{
+      font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header{width: 100%;
+display: flex;
+align-items: center;justify-content: center;
+background-color:#39A2DB ;}
+h1 {
+      height: 70px;
+      color: white;
+}
+main{
+      margin: 10% auto 0 15%;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      min-height: 70vh;
+      background-color:#5f8a94 ;
+}
+footer{
+      width: 100%;
+      background-color:white ;
+}
+table{width: 500px;}
+table,th,td{padding: 10px;vertical-align: middle;
+text-align: center;}
+tr{border: 2px solid white}
+
+tr:nth-child(odd){
+      background-color: A2DBFA;
+}
+thead{background-color:#A2DBFA  ;}
+button{
+      background-color: #a10909;
+}
+input #clear{
+      background-color: #71c7ec;
+}
